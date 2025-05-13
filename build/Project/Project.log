@@ -1,0 +1,22 @@
+﻿  main.cpp
+D:\LU\CG_project\project_final\include\learnopengl\shader_m.h(49,40): warning C4101: 'e': 未參考的區域變數
+D:\LU\CG_project\project_final\include\learnopengl\mesh.h(90,1): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+D:\LU\CG_project\project_final\include\wave\wave.h(42,16): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(51,26): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(89,48): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(90,48): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(250,28): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(456,24): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(458,24): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(467,33): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(471,29): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(475,24): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(479,24): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(520,21): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(521,21): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(525,23): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(526,23): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(528,17): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(529,17): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\LU\CG_project\project_final\src\3.model_loading\1.model_loading\main.cpp(539,31): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  Project.vcxproj -> D:\LU\CG_project\project_final\bin\Project.exe

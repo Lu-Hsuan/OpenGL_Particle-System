@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\bitonicsort.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\main.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\Helper.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\Particle.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\ParticleSystem.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\particle_TF.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\pipline.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\skybox.cpp" />
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\wave\wave.cpp" />
+    <ClCompile Include="..\..\src\glad.c" />
+    <ClCompile Include="..\..\src\stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Media\ShadersGL\fire\billboard.frag" />
+    <None Include="..\..\Media\ShadersGL\fire\billboard.geom" />
+    <None Include="..\..\Media\ShadersGL\fire\bitonicsort.comp" />
+    <None Include="..\..\Media\ShadersGL\fire\particle.vert" />
+    <None Include="..\..\Media\ShadersGL\fire\smokeemitter.geom" />
+    <None Include="..\..\Media\ShadersGL\fire\smokeupdate.geom" />
+    <None Include="..\..\Media\ShadersGL\fire\smokeupdate.vert" />
+    <None Include="..\..\Media\ShadersGL\fire\sortparticles.comp" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\billboard.frag" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\billboard.geom" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\bitonicsort.comp" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\particle.vert" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\smokeemitter.geom" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\smokeupdate.geom" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\smokeupdate.vert" />
+    <None Include="..\..\Media\ShadersGL\flake_fire\sortparticles.comp" />
+    <None Include="..\..\Media\ShadersGL\snow\billboard.frag" />
+    <None Include="..\..\Media\ShadersGL\snow\billboard.geom" />
+    <None Include="..\..\Media\ShadersGL\snow\bitonicsort.comp" />
+    <None Include="..\..\Media\ShadersGL\snow\particle.vert" />
+    <None Include="..\..\Media\ShadersGL\snow\smokeemitter.geom" />
+    <None Include="..\..\Media\ShadersGL\snow\smokeupdate.geom" />
+    <None Include="..\..\Media\ShadersGL\snow\smokeupdate.vert" />
+    <None Include="..\..\Media\ShadersGL\snow\sortparticles.comp" />
+    <None Include="..\..\Media\ShadersGL\tornado\billboard.frag" />
+    <None Include="..\..\Media\ShadersGL\tornado\billboard.geom" />
+    <None Include="..\..\Media\ShadersGL\tornado\bitonicsort.comp" />
+    <None Include="..\..\Media\ShadersGL\tornado\particle.vert" />
+    <None Include="..\..\Media\ShadersGL\tornado\smokeemitter.geom" />
+    <None Include="..\..\Media\ShadersGL\tornado\smokeupdate.geom" />
+    <None Include="..\..\Media\ShadersGL\tornado\smokeupdate.vert" />
+    <None Include="..\..\Media\ShadersGL\tornado\sortparticles.comp" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\billboard.frag" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\billboard.geom" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\bitonicsort.comp" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\particle.vert" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\smokeemitter.geom" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\smokeupdate.geom" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\smokeupdate.vert" />
+    <None Include="..\..\Media\ShadersGL\tornado_tail\sortparticles.comp" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\1.model_loading.fs" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\1.model_loading.vs" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\fire.fs" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\fire.vs" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\lamp.frag" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\lamp.vert" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\skybox.fs" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\skybox.vs" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\surface.frag" />
+    <None Include="..\..\src\3.model_loading\1.model_loading\surface.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\bitonicsort.h" />
+    <ClInclude Include="..\..\include\imgui\imconfig.h" />
+    <ClInclude Include="..\..\include\imgui\imgui.h" />
+    <ClInclude Include="..\..\include\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\..\include\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\include\particle\Helper.h" />
+    <ClInclude Include="..\..\include\particle\Particle.h" />
+    <ClInclude Include="..\..\include\particle\ParticleSystem.h" />
+    <ClInclude Include="..\..\include\particle\particle_TF.h" />
+    <ClInclude Include="..\..\include\pipline.h" />
+    <ClInclude Include="..\..\include\wave\wave.h" />
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_internal.h" />
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imstb_truetype.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{443CC0D2-2C67-4215-B519-630E41129304}</ProjectGuid>
+    <RootNamespace>Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectName>Project</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <VCToolsVersion>
+    </VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <VCToolsVersion>
+    </VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <VCToolsVersion>
+    </VCToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <VCToolsVersion>
+    </VCToolsVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+    <IntDir>$(SolutionDir)..\build\HW3\</IntDir>
+    <LibraryPath>$(SolutionDir)..\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\include;$(SolutionDir)..\extern\glad\include;$(SolutionDir)..\extern\glm;$(SolutionDir)..\extern\glfw\include;$(SolutionDir)..\extern\imgui\include;$(SolutionDir)..\extern\stb\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+    <IntDir>$(SolutionDir)..\build\HW3\</IntDir>
+    <LibraryPath>$(SolutionDir)..\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\include;$(SolutionDir)..\extern\glad\include;$(SolutionDir)..\extern\glm;$(SolutionDir)..\extern\glfw\include;$(SolutionDir)..\extern\imgui\include;$(SolutionDir)..\extern\stb\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Project\</IntDir>
+    <LibraryPath>$(SolutionDir)..\lib;$(SolutionDir)..\dlls;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+    <IntDir>$(SolutionDir)..\build\HW3\</IntDir>
+    <LibraryPath>$(SolutionDir)..\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\include;$(SolutionDir)..\extern\glad\include;$(SolutionDir)..\extern\glm;$(SolutionDir)..\extern\glfw\include;$(SolutionDir)..\extern\imgui\include;$(SolutionDir)..\extern\stb\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>IMGUI_IMPL_OPENGL_LOADER_CUSTOM;GLFW_INCLUDE_NONE;GLFW_DLL;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>IMGUI_IMPL_OPENGL_LOADER_CUSTOM;GLFW_INCLUDE_NONE;GLFW_DLL;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);IMGUI_IMPL_OPENGL_LOADER_CUSTOM;WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp.lib;freetype.lib;irrKlang.lib;STB_IMAGE.lib;GLAD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;libfftw3f-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>IMGUI_IMPL_OPENGL_LOADER_CUSTOM;GLFW_INCLUDE_NONE;GLFW_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

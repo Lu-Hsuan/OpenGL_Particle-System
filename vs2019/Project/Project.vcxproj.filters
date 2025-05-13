@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{deab5199-83bb-42b1-8fb7-316ce772ca16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{9af937a5-6e06-49b2-887e-491cc726c090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\wave">
+      <UniqueIdentifier>{6881246f-33f7-4d1a-90b2-4153d7a42773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\particle">
+      <UniqueIdentifier>{478572ca-6b29-4ec5-a935-9a3c7233697e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wave">
+      <UniqueIdentifier>{4b427d18-a899-4382-8d43-953ebcc8a577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\particle">
+      <UniqueIdentifier>{db139ae1-6306-4fc4-8c4b-9eb690f3155b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{1d96a554-529c-49a7-ac2c-8b9af917d6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media">
+      <UniqueIdentifier>{d04290c4-8c75-4907-8f98-5dab02afc508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\fire">
+      <UniqueIdentifier>{2cb66c5b-adaa-40df-9659-4390512af480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\tornado">
+      <UniqueIdentifier>{eaf4fbc1-e908-4f25-a271-b3d92c935545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\snow">
+      <UniqueIdentifier>{85b40d25-f332-4346-910e-5a9dae4b3872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\firework">
+      <UniqueIdentifier>{67800511-dd02-4334-9f58-0ba306cdca6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\tail">
+      <UniqueIdentifier>{9500662c-2490-4395-87d1-1c03bdb75253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imgui">
+      <UniqueIdentifier>{60d6a6e9-88ff-431e-b81a-75be4cb9641a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\imgui">
+      <UniqueIdentifier>{9b769971-5601-4e57-8024-121ee4761c4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\glad.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stb_image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\skybox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\Helper.cpp">
+      <Filter>src\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\Particle.cpp">
+      <Filter>src\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\ParticleSystem.cpp">
+      <Filter>src\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\wave\wave.cpp">
+      <Filter>src\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\particle\particle_TF.cpp">
+      <Filter>src\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\bitonicsort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\pipline.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_demo.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_draw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_impl_glfw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_impl_opengl3.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_tables.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_widgets.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\3.model_loading\1.model_loading\surface.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\surface.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\skybox.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\skybox.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\lamp.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\lamp.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\fire.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\fire.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\1.model_loading.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\src\3.model_loading\1.model_loading\1.model_loading.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\billboard.frag">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\billboard.geom">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\bitonicsort.comp">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\particle.vert">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\smokeemitter.geom">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\smokeupdate.geom">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\smokeupdate.vert">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\fire\sortparticles.comp">
+      <Filter>Media\fire</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\billboard.frag">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\billboard.geom">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\bitonicsort.comp">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\particle.vert">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\smokeemitter.geom">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\smokeupdate.geom">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\smokeupdate.vert">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado\sortparticles.comp">
+      <Filter>Media\tornado</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\billboard.frag">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\billboard.geom">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\bitonicsort.comp">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\particle.vert">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\smokeemitter.geom">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\smokeupdate.geom">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\smokeupdate.vert">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\flake_fire\sortparticles.comp">
+      <Filter>Media\firework</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\billboard.frag">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\billboard.geom">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\bitonicsort.comp">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\particle.vert">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\smokeemitter.geom">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\smokeupdate.geom">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\smokeupdate.vert">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\snow\sortparticles.comp">
+      <Filter>Media\snow</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\billboard.frag">
+      <Filter>Media\tail</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\billboard.geom">
+      <Filter>Media\tail</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\bitonicsort.comp">
+      <Filter>Media\tail</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\particle.vert">
+      <Filter>Media\tail</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\smokeemitter.geom">
+      <Filter>Media\tail</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\smokeupdate.geom">
+      <Filter>Media\tail</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\smokeupdate.vert">
+      <Filter>Media\tail</Filter>
+    </None>
+    <None Include="..\..\Media\ShadersGL\tornado_tail\sortparticles.comp">
+      <Filter>Media\tail</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\wave\wave.h">
+      <Filter>inc\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\particle\Helper.h">
+      <Filter>inc\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\particle\Particle.h">
+      <Filter>inc\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\particle\ParticleSystem.h">
+      <Filter>inc\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\particle\particle_TF.h">
+      <Filter>inc\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\bitonicsort.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pipline.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imgui_internal.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imstb_rectpack.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imstb_textedit.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\3.model_loading\1.model_loading\imgui\imstb_truetype.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\imgui\imconfig.h">
+      <Filter>inc\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\imgui\imgui.h">
+      <Filter>inc\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\imgui\imgui_impl_glfw.h">
+      <Filter>inc\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\imgui\imgui_impl_opengl3.h">
+      <Filter>inc\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc" />
+  </ItemGroup>
+</Project>
